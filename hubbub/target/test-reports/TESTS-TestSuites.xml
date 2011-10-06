@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Blue-PC" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="1.927" timestamp="2011-09-30T22:56:02">
+      <properties />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="1.837" />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.033" />
+
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.024" />
+
+      <system-out><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Blue-PC" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="7" time="0.344" timestamp="2011-09-30T22:56:04">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveUserIdNotEqualToPassword" time="0.178" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.073" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.022" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.013" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.015" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.016" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.016" />
+
+      <system-out><![CDATA[--Output from testEvilSaveUserIdNotEqualToPassword--
+--Output from testSaveThenDelete--
+--Output from testFollowing--
+--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testEvilSaveUserIdNotEqualToPassword--
+--Output from testSaveThenDelete--
+--Output from testFollowing--
+--Output from testFirstSaveEver--
+--Output from testSaveAndUpdate--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
