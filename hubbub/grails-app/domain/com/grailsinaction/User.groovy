@@ -22,4 +22,5 @@ class User {
       posts sort:'dateCreated'
    }
    static hasMany = [ posts : Post, tags : Tag, following : User ]
+   //testing changes in github
 }
