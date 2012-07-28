@@ -2,7 +2,7 @@ package com.grailsinaction
 
 import grails.test.*
 
-class UserIntegrationTests extends GrailsUnitTestCase {
+class UserIntegrationTests extends GroovyTestCase {
 
    void testFirstSaveEver() {
       def user = new User(userId: 'joe', password: 'secret', homepage: 'http://www.grailsinaction.com')

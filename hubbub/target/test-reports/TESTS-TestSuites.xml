@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Blue-PC" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="1.927" timestamp="2011-09-30T22:56:02">
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.635" timestamp="2012-07-28T00:04:19">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="1.837" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.549" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.033" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.031" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.024" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.02" />
 
       <system-out><![CDATA[--Output from testFirstPost--
 --Output from testAccessingPosts--
@@ -20,39 +20,51 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Blue-PC" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="7" time="0.344" timestamp="2011-09-30T22:56:04">
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="7" time="0.261" timestamp="2012-07-28T00:04:20">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveUserIdNotEqualToPassword" time="0.178" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.031" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.073" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.029" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.022" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.108" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.013" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.036" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.015" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveUserIdNotEqualToPassword" time="0.0080" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.016" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.021" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.016" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.02" />
 
-      <system-out><![CDATA[--Output from testEvilSaveUserIdNotEqualToPassword--
---Output from testSaveThenDelete--
---Output from testFollowing--
---Output from testFirstSaveEver--
+      <system-out><![CDATA[--Output from testFirstSaveEver--
 --Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
 --Output from testEvilSave--
+--Output from testEvilSaveUserIdNotEqualToPassword--
 --Output from testEvilSaveCorrected--
+--Output from testFollowing--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testEvilSaveUserIdNotEqualToPassword--
---Output from testSaveThenDelete--
---Output from testFollowing--
---Output from testFirstSaveEver--
+      <system-err><![CDATA[--Output from testFirstSaveEver--
 --Output from testSaveAndUpdate--
+--Output from testSaveThenDelete--
 --Output from testEvilSave--
+--Output from testEvilSaveUserIdNotEqualToPassword--
 --Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="2" name="QueryIntegrationTests" package="hubbub" tests="1" time="0.108" timestamp="2012-07-28T00:04:20">
+      <properties />
+
+      <testcase classname="hubbub.QueryIntegrationTests" name="testBaicDynamicFinders" time="0.106" />
+
+      <system-out><![CDATA[--Output from testBaicDynamicFinders--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testBaicDynamicFinders--
 ]]></system-err>
 
   </testsuite>
