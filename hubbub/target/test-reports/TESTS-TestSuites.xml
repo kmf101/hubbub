@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.635" timestamp="2012-07-28T00:04:19">
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.611" timestamp="2012-08-21T19:34:14">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.549" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.52" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.031" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.024" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.02" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.018" />
 
       <system-out><![CDATA[--Output from testFirstPost--
 --Output from testAccessingPosts--
@@ -20,22 +20,22 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="7" time="0.261" timestamp="2012-07-28T00:04:20">
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="7" time="0.264" timestamp="2012-08-21T19:34:15">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.031" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.027" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.029" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveAndUpdate" time="0.02" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.108" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.103" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.036" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.039" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveUserIdNotEqualToPassword" time="0.0080" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveUserIdNotEqualToPassword" time="0.012" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.021" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.023" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.02" />
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.028" />
 
       <system-out><![CDATA[--Output from testFirstSaveEver--
 --Output from testSaveAndUpdate--
@@ -56,15 +56,19 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="2" name="QueryIntegrationTests" package="hubbub" tests="1" time="0.108" timestamp="2012-07-28T00:04:20">
+  <testsuite errors="0" failures="0" hostname="Terrys-MacBook-Air.local" id="2" name="QueryIntegrationTests" package="hubbub" tests="2" time="0.159" timestamp="2012-08-21T19:34:15">
       <properties />
 
-      <testcase classname="hubbub.QueryIntegrationTests" name="testBaicDynamicFinders" time="0.106" />
+      <testcase classname="hubbub.QueryIntegrationTests" name="testBaicDynamicFinders" time="0.113" />
+
+      <testcase classname="hubbub.QueryIntegrationTests" name="testQueryByExample" time="0.042" />
 
       <system-out><![CDATA[--Output from testBaicDynamicFinders--
+--Output from testQueryByExample--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testBaicDynamicFinders--
+--Output from testQueryByExample--
 ]]></system-err>
 
   </testsuite>
